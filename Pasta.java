@@ -9,7 +9,7 @@ public class Pasta extends ItalianFood {
   private boolean isSpicy; // Whether or not the pasta is spicy (ex. Arrabiata)
   
  /*
-  * The default constructor for the Pasta class
+  * The default constructor for the Pasta class with the default values
   */
   public Pasta(){
   this("unknown", 100, 0.50, "unknown", "unknown", false);
@@ -35,7 +35,7 @@ public Pasta(String name, int calories, double price, String sauceType, String p
   }
   
   /*
-  * Three accessor methods, one for each special instance variable in the Pasta class
+  * Three accessor methods, one for each special instance variable in the Pasta class to access their values
   */
   public String getSauceType(){
     return sauceType;
@@ -50,7 +50,7 @@ public Pasta(String name, int calories, double price, String sauceType, String p
   }
   
   /*
-  * Three mutator methods, one for each special instance variable in the Pasta class
+  * Three mutator methods, one for each special instance variable in the Pasta class to be able to alter their values
   */
   public void setSauceType(String newSauceType){
     sauceType = newSauceType;
@@ -62,7 +62,7 @@ public Pasta(String name, int calories, double price, String sauceType, String p
     isSpicy = newIsSpicy;
   }
 /*
-  * The toString() method for the Pasta class using the one in ItalianFood
+  * The toString() method for the Pasta class using the one in ItalianFood to print an object's values
   */
   public String toString(){
     return super.toString() + "\n" + "Sauce Type: " + sauceType + "\n" + "Pasta Type: " + pastaType + "\n" + "Is It Spicy? " + isSpicy;
