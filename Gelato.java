@@ -8,7 +8,7 @@ public class Gelato extends ItalianFood {
   private boolean isInCone; // Whether or not the gelato is in a cone
   
  /*
-  * The default constructor for the Gelato class
+  * The default constructor for the Gelato class to store their default values
   */
   public Gelato(){
   this("unknown", 100, 0.50, "unknown", false);
@@ -32,7 +32,7 @@ public Gelato(String name, int calories, double price, String flavor, boolean is
   this.flavor = flavor;
   }
   /*
-  * Two accessor methods to access special instance variables in the Gelato class
+  * Two accessor methods to access special instance variables in the Gelato class and their values
   */
   public String getFlavor(){
     return flavor;
@@ -43,7 +43,7 @@ public Gelato(String name, int calories, double price, String flavor, boolean is
   }
   
   /*
-  * Two mutator methods, one for each special instance variable in the Gelato class
+  * Two mutator methods, one for each special instance variable in the Gelato class to alter their values
   */
   public void setFlavor(String newFlavor){
     flavor = newFlavor;
@@ -54,7 +54,7 @@ public Gelato(String name, int calories, double price, String flavor, boolean is
   }
   
   /*
-  * The toString() method for the Gelato class using the one in ItalianFood
+  * The toString() method for the Gelato class using the one in ItalianFood to print an object's values
   */
   public String toString(){
     return super.toString() + "\n" + "Flavor: " + flavor + "\n" + "Is It In A Cone? " + isInCone;
