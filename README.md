@@ -17,8 +17,8 @@ Use your knowledge of object-oriented programming and class structure and design
 
 Put and image of your UML Diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here.
 
-![Image: ](/Copy-of-UML-Diagram.png)
+![](copy-of-uml-diagram.png)
 
 ## Description
 
-Write a description of your project here. Include what your store you made, and why you chose this topic. In your description, include as many vocab words from our class to explain how you represented the item/service from your store. If you have user input, explain how the user will interact with your store such as which questions are prompted to the user, what response is your program expecting, and how that is use to output information for your store in the console
+For this project, I decided to create an Italian Restaurant. I knew I wanted to create a restaurant because I dream of becoming a chef when I'm older, and an Italian Restaurant is the first thing to come into my mind. To represent my assorted objects, I used no-argument constructors, parameterized constructors, accessor methods, mutator methods, and toString() methods. The Pasta, Pizza, and Gelato classes are all subclasses of the ItalianFood class, and thus each inherited the name, calories, and price instance variables from ItalianFood. They also overrode ItalianFood's toString() method as a component of their respective toString() methods to express all their attributes. Different subclasses also required new instance variables of varying primitive data types and reference types. For example, Pasta required two String variables to express its sauce and pasta shape along with a boolean expression to represent if it has spice or not. On the other hand, Pizza also had two String variables for its size and topping(s), but also had an int for the number of slices. All together, these variables and methods built the different food classes I serve at my restaurant and were all tested to prove that they worked as intended, all of which (tests) were passed.
