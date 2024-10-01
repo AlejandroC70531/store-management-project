@@ -23,7 +23,14 @@ public Gelato(String name, int calories, double price, String flavor, boolean is
   this.flavor = flavor;
   this.isInCone = isInCone;
   }
-  
+
+  /*
+  * A slightly modified parameterized constructor for the Gelato class without the isInCone variable
+  */
+  public Gelato(String name, int calories, double price, String flavor){
+  super(name, calories, price);
+  this.flavor = flavor;
+  }
   /*
   * Two accessor methods to access special instance variables in the Gelato class
   */
