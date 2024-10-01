@@ -25,6 +25,15 @@ public Pasta(String name, int calories, double price, String sauceType, String p
   this.isSpicy = isSpicy;
   }
   
+/*
+  * A slightly modified parameterized constructor for the Pasta class without the isSpicy variable
+  */
+  public Pasta(String name, int calories, double price, String sauceType, String pastaType){
+  super(name, calories, price);
+  this.sauceType = sauceType;
+  this.pastaType = pastaType;
+  }
+  
   /*
   * Three accessor methods, one for each special instance variable in the Pasta class
   */
