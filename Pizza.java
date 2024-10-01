@@ -9,7 +9,7 @@ public class Pizza extends ItalianFood {
   private int numSlices;   // The number of slices the pizza was divided into
   
 /*
-  * The default constructor for the Pizza class
+  * The default constructor for the Pizza class to assign their default values
   */
   public Pizza(){
   this("unknown", 100, 0.50, "unknown", "nothing", 1);
@@ -34,7 +34,7 @@ public Pizza(String name, int calories, double price, String size, String toppin
   this.size = size;
   }
   /*
-  * Three accessor methods, one for each special instance variable in the Pizza class
+  * Three accessor methods, one for each special instance variable in the Pizza class to access their values
   */
   public String getSize(){
     return size;
@@ -49,7 +49,7 @@ public Pizza(String name, int calories, double price, String size, String toppin
   }
   
   /*
-  * Three mutator methods, one for each instance variable in the Pizza class
+  * Three mutator methods, one for each instance variable in the Pizza class to alter their values
   */
   public void setSize(String newSize){
     size = newSize;
@@ -64,7 +64,7 @@ public Pizza(String name, int calories, double price, String size, String toppin
   }
   
   /*
-  * The toString() method for the Pizza class using the one in ItalianFood
+  * The toString() method for the Pizza class using the one in ItalianFood to print the values of an object
   */
   public String toString(){
     return super.toString() + "\n" + "Size: " + size + "\n" + "Toppings: " + toppings + "\n" + "Number Of Slices: " + numSlices;
