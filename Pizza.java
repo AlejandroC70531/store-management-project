@@ -12,7 +12,7 @@ public class Pizza extends ItalianFood {
   * The default constructor for the Pizza class
   */
   public Pizza(){
-  this("unknown", 100, 0.50, "unknown", "nothing", 0);
+  this("unknown", 100, 0.50, "unknown", "nothing", 1);
   }
   
 /*
@@ -26,6 +26,13 @@ public Pizza(String name, int calories, double price, String size, String toppin
   this.numSlices = numSlices;
   }
   
+/*
+  * A slightly modified parameterized constructor for the Pizza class without the toppings and numSlices variables
+  */
+  public Pizza(String name, int calories, double price, String size){
+  super(name, calories, price);
+  this.size = size;
+  }
   /*
   * Three accessor methods, one for each special instance variable in the Pizza class
   */
