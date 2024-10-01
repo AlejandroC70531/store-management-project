@@ -23,6 +23,14 @@ public ItalianFood(String name, int calories, double price){
   this.calories = calories;
   this.price = price;
 }
+  
+/*
+  * A slightly modified parameterized constructor for the ItalianFood class without the calories variable
+  */
+public ItalianFood(String name, double price){
+  this.name = name;
+  this.price = price;
+}
 
   /*
   * Three accessor methods, one for each special instance variable in the pasta class
