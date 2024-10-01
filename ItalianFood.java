@@ -9,7 +9,7 @@ public class ItalianFood {
  private double price; // The price of the dish
 
 /*
-  * The default constructor for the ItalianFood class
+  * The default constructor for the ItalianFood class with the default values
   */
 public ItalianFood(){
   this("unknown", 100, 0.50);
@@ -33,7 +33,7 @@ public ItalianFood(String name, double price){
 }
 
   /*
-  * Three accessor methods, one for each special instance variable in the pasta class
+  * Three accessor methods, one for each special instance variable in the pasta class to be able to access their values
   */
   public String getName(){
   return name;
@@ -48,7 +48,7 @@ public ItalianFood(String name, double price){
 }
   
   /*
-  * Three mutator methods, one for each instance variable 
+  * Three mutator methods, one for each instance variable to be able to alter their values
   */
   public void setName(String newName){
     name = newName;
@@ -69,7 +69,7 @@ public ItalianFood(String name, double price){
    }
 
   /*
-  * The toString() method for the ItalianFood class
+  * The toString() method for the ItalianFood class to print an object's values
   */
     public String toString(){
     return "\n" + "Name: " + name + "\n" + "Calories: " + calories + "\n" + "Price: " + price;
