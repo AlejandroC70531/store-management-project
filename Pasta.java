@@ -9,7 +9,7 @@ public class Pasta extends ItalianFood {
   private boolean isSpicy; // Whether or not the pasta is spicy (ex. Arrabiata)
   
  /*
-  * The default constructor for the Pasta class with the default values
+  * The no-argument constructor for the Pasta class with the default values
   */
   public Pasta(){
   this("unknown", 100, 0.50, "unknown", "unknown", false);
