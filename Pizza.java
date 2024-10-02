@@ -9,7 +9,7 @@ public class Pizza extends ItalianFood {
   private int numSlices;   // The number of slices the pizza was divided into
   
 /*
-  * The default constructor for the Pizza class to assign their default values
+  * The no-argument constructor for the Pizza class to assign their default values
   */
   public Pizza(){
   this("unknown", 100, 0.50, "unknown", "nothing", 1);
