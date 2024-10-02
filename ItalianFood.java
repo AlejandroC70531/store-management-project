@@ -9,7 +9,7 @@ public class ItalianFood {
  private double price; // The price of the dish
 
 /*
-  * The default constructor for the ItalianFood class with the default values
+  * The no-argument constructor for the ItalianFood class with the default values
   */
 public ItalianFood(){
   this("unknown", 100, 0.50);
