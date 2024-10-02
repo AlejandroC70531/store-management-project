@@ -8,7 +8,7 @@ public class Gelato extends ItalianFood {
   private boolean isInCone; // Whether or not the gelato is in a cone
   
  /*
-  * The default constructor for the Gelato class to store their default values
+  * The no-argument constructor for the Gelato class to store their default values
   */
   public Gelato(){
   this("unknown", 100, 0.50, "unknown", false);
